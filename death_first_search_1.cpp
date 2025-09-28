@@ -31,8 +31,8 @@ int main()
         int si; // Индекс узла, на котором в данный момент находится агент Bobnet
         std::cin >> si; std::cin.ignore();
 
-        int node_to_cut1;
-        int node_to_cut2;
+        int node_to_cut1 = -1;
+        int node_to_cut2 = -1;
         bool immediate_threat_found = false;
 
         // Первый проход: ищем самую опасную связь - от агента к выходу.
@@ -61,3 +61,4 @@ int main()
         std::cout << node_to_cut1 << " " << node_to_cut2 << std::endl;
     }
 }
+
