@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <utility> // Для std::pair
 
 // Функция для поиска соседа справа
 std::pair<int, int> findRightNeighbor(int x, int y, int width, const std::vector<std::string>& grid) {
