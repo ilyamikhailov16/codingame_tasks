@@ -24,9 +24,6 @@ std::pair<int, int> findBottomNeighbor(int x, int y, int height, const std::vect
 }
 
 int main() {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-
     int width;
     std::cin >> width; std::cin.ignore();
     int height;
@@ -55,3 +52,4 @@ int main() {
     return 0;
 
 }
+
