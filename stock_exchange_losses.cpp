@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> // Для std::min и std::max
 
 int main() {
     int n;
@@ -36,4 +35,5 @@ int main() {
     std::cout << max_loss << std::endl;
 
     return 0;
+
 }
